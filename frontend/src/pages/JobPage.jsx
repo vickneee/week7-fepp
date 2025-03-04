@@ -69,7 +69,7 @@ const JobPage = () => {
           <Link to={`/edit-job/${id}`} className="btn"> Edit </Link>
           {/*<button onClick={() => navigate(`/edit-job/${job._id}`)}>edit</button>*/}
           {/*<button onClick={() => onDeleteClick(job._id)}>delete</button>*/}
-          <Link to="/home/" onClick={() => onDeleteClick(job._id)} className="btn">Delete</Link>
+          <Link to="/" onClick={() => onDeleteClick(job._id)} className="btn">Delete</Link>
           </div>
         </>
       )}
