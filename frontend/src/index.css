@@ -3,7 +3,7 @@
 /* base styles */
 * {
   margin: 0;
-  font-family: "Quicksand";
+  font-family: "Quicksand", serif;
   color: #333;
 }
 .navbar {
@@ -28,6 +28,7 @@
 .navbar a:hover {
   color: #f1356d;
 }
+
 .content {
   max-width: 600px;
   margin: 40px auto;
@@ -35,7 +36,6 @@
 }
 
 /* job previews / list */
-
 .job-list {
   display: flex;
   flex-direction: column;
@@ -124,4 +124,21 @@
   padding: 8px;
   border-radius: 8px;
   cursor: pointer;
+}
+
+/* Added Styles */
+.btn {
+  background: #f1356d;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.align-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
 }
