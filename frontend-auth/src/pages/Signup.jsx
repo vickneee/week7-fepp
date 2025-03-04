@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 
 const Signup = () => {
   const navigate = useNavigate();
-  const name = useField("text");  
+  const name = useField("text");
   const email = useField("email");
   const password = useField("password");
   const phoneNumber = useField("text");
@@ -26,7 +26,7 @@ const Signup = () => {
       membership_status: membershipStatus.value,
     });
     if (!error) {
-      console.log("success");
+      console.log("Signup successful");
       navigate("/");
     }
   };

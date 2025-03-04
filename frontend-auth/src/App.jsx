@@ -7,6 +7,8 @@ import Navbar from "./components/Navbar";
 import NotFoundPage from "./pages/NotFoundPage";
 import JobPage from "./pages/JobPage";
 import EditJobPage from './pages/EditJobPage';
+import Login from './pages/Login';
+import Signup from './pages/Signup';
 
 const App = () => {
 
@@ -20,6 +22,8 @@ const App = () => {
               <Route path="/add-job" element={<AddJobPage />} />
               <Route path="/jobs/:id" element={<JobPage />} />
               <Route path="/edit-job/:id" element={<EditJobPage />} />
+              <Route path="/login" element={<Login />} />
+              <Route path="/signup" element={<Signup />} />
               <Route path='*' element={<NotFoundPage />} />
             </Routes>
           </div>
